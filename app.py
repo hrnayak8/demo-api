@@ -9,7 +9,7 @@ def index():
 @app.route('/prediction', methods=["POST"])
 def prediction():
 
-    return "wellcome to prediction"
+    return render_template("index.html", data=""wellcome to prediction"")
 
 if __name__ == "__main__":
     app.run(debug=True)
